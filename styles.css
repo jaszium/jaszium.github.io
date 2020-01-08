@@ -1,0 +1,33 @@
+/* CSS Document */
+/*li em {color:red; font-weight:bold}*/
+/*ul {margin-left:2cm}*/
+/*ul ul {text-decoration:underline; margin-left:.5cm}*/
+/*font-family:"the brill"; ~add to pre & #brill*/
+/*font-family:"consolas"; ~add to pre & #brill*/
+a {text-decoration:none}
+a:hover {text-decoration:underline; color:red; }
+body {
+	color:black;
+	text-align:center;
+	font-size:110%;
+	/*font-family:"consolas";*/
+	/*font-family:"dejavu sans";*/
+}
+code {
+	font-size:90%;
+}
+li {
+	text-align:center;
+}
+pre {
+	color:black;
+	font-size:130%;
+}
+#jz {
+	color:red;
+}
+#brill {
+}
+#bgpng {
+	background:#ffffff url("/Ʒëße-full-bgα-fgBlack.png") right/contain no-repeat;
+}
