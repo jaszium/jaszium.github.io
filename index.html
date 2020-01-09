@@ -3,8 +3,8 @@
 	<head>
 		<!--<base href="https://jaszium.github.io/" target="_blank">-->
 		<link type="image/icon type" rel="icon" href="https://avatars1.githubusercontent.com/u/58339115?v=4"/>
-		<link type="text/css" rel="stylesheet" href="styles.css"/>
-		<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />-->
+		<!--<link type="text/css" rel="stylesheet" href="styles.css"/>-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 		<meta charset="UTF-8"/>
 		<meta name="author" content="Jaszium Styrx Paralex"/>
 		<!--<meta name="description" content="">-->
@@ -13,28 +13,38 @@
 		<title>Jaszium - Home</title>
 	</head>
 	<body>
-		<table align="center" border="0" cellpadding="8" cellspacing="4" width="1500" !height="80">
+		<nav class="w3-sidebar w3-bar-block w3-border-right w3-animate-left" style="display:none" id="ʒsidebar">
+			<button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+			<a href="https://jaszium.github.io/" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+			<a href="a.html" class="w3-bar-item w3-button w3-hover-blue">A.html</a>
+			<a href="/jaszium" class="w3-bar-item w3-button w3-hover-blue">Jaszium Inc - GitHub</a>
+			<a href="https://github.com/jaszium" class="w3-bar-item w3-button w3-hover-blue">Github - Jaszium</a>
+		</nav>
+		<!--<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="ʒoverlay"></div>-->
+		<div class="w3-blue">
+			<button onclick="w3_open()" class="w3-button w3-blue w3-xlarge">☰</button>
+			<div class="w3-container">
+			</div>
+		</div>
+		<div class="w3-row-padding w3-light-blue">
+			<div class="w3-quarter">
+				<a href="https://jaszium.github.io/">
+					<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="256">
+				</a>
+			</div>
+			<div class="w3-half">
+				<br/><br/><br/><h1 align="center" style="color:blue">Main:\Home</h1>
+			</div>
+			<div class="w3-quarter">
+				<br/><br/><br/><h1 align="right"><i>January 09th, 2020</i></h1>
+			</div>
+		</div>
+		<table align="center" border="0" cellpadding="8" cellspacing="4" !width="1500" !height="80">
 			<tbody>
 				<tr>
-					<td>
-						<a href="https://jaszium.github.io/">
-							<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="128"/>
-						</a>
+					<td width="256">
 					</td>
-					<td style="color:blue">
-						<h1>Main:\Home</h1>
-					</td>
-					<td>
-						<h3 align="right"><i>January 09th, 2020</i></h3>
-					</td>
-				</tr>
-				<tr>
-					<td width="250">
-						<h2>Contents<br/>(<i>Not yet implemented</i>)</h2>
-						<h4><a href="a.html">A.html</a><br/>
-						<a href="/jaszium/index.html">Jaszium Inc - GitHub</a></h4>
-					</td>
-					<td>
+					<td width="793">
 						<h2>This is my homepage for all my future projects to reside in.</h2>
 						<p>
 							By projects, I mean: APE Dna, Audacity, AutoHotkey, Dribbble, Fontforge, GitHub,<br/>
@@ -42,7 +52,6 @@
 							Open Broadcast Software, Pinterest, Python, Quora, Twitch, Unsorted, and Youtube.<br/>
 							<br/>That means, I plan to add nearly 20 topics of content that will be elaborated in
 							<br/>their own index.html Homepages, with detailed chapters in that particular scope.
-							
 						</p>
 					</td>
 					<td>
@@ -53,24 +62,24 @@
 						</p>
 					</td>
 				</tr>
-				<tr>
-					<td>
-						<h4 align="left">All rights reserved.<br>Courtesy of Jaszium Industries,<br>United Kingdom</h4>
-					</td>
-					<td>
-						<h3>
-							For further inquiries, please head on over to:<br>
-							<a href="https://sites.google.com/view/jaszium/home">Jaszium Inc - Google Sites</a>
-							for more information.
-						</h3>
-						<br/>
-						<p align="center"><i>.eof</i> (<code>èǹd`òf`fìlè</code>)</p>
-					</td>
-					<td width="250">
-						<h4 align="right">Copyright to Jaszium Inc,<br><i>a subsidiary of Jaszium Industries</i><br>circa Mar 2019</h4>
-					</td>
-				</tr>
 			</tbody>
 		</table>
+		<div class="w3-row-padding w3-pale-blue">
+			<div class="w3-quarter">
+				<h4 align="left">All rights reserved.<br>Courtesy of Jaszium Industries,<br>United Kingdom</h4>
+			</div>
+			<div class="w3-half">
+				<h3 align="center">
+					For further inquiries, please head on over to:<br>
+					<a href="https://sites.google.com/view/jaszium/home">Jaszium Inc - Google Sites</a>
+					for more information.
+				</h3>
+				<p align="center"><i>.eof</i> (<code>èǹd`òf`fìlè</code>)</p>
+			</div>
+			<div class="w3-quarter">
+				<h4 align="right">Copyright to Jaszium Inc,<br><i>a subsidiary of Jaszium Industries</i><br>circa Mar 2019</h4>
+			</div>
+		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
