@@ -4,13 +4,8 @@
 /*ul ul {text-decoration:underline; margin-left:.5cm}*/
 /*font-family:"the brill"; ~add to pre & #brill*/
 /*font-family:"consolas"; ~add to pre & #brill*/
-a {
-	text-decoration:none
-}
-a:hover {
-	text-decoration:underline;
-	background-color:lightcyan;
-}
+a {text-decoration:none;}
+a:hover {text-decoration:underline; background-color:lightcyan;}
 body {
 	color:black;
 	text-align:center;
