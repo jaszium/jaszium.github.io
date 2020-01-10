@@ -10,63 +10,74 @@
 		<!--<meta name="description" content="">-->
 		<meta name="keywords" content="HTML,CSS,Jaszium"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+			a{
+				text-decoration:none;
+				color:blue;
+			}
+			a:hover{
+				background-color:lightcyan;
+				<!--text-decoration:underline;-->
+			}
+			#ghPages:hover{
+				background-color:white;
+			}
+		</style>
 		<title>Jaszium - Home</title>
 	</head>
-	<body>
+	<body onload="ʒnamen()">
 		<nav class="w3-sidebar w3-bar-block w3-border-right w3-animate-left" style="display:none" id="ʒsidebar">
-			<button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-			<a href="https://jaszium.github.io/" class="w3-bar-item w3-button w3-hover-blue">Home</a>
-			<a href="a.html" class="w3-bar-item w3-button w3-hover-blue">A.html</a>
-			<a href="/jaszium" class="w3-bar-item w3-button w3-hover-blue">Jaszium Inc - GitHub</a>
-			<a href="https://github.com/jaszium" class="w3-bar-item w3-button w3-hover-blue">Github - Jaszium</a>
+			<button onclick="w3_close()" class="w3-bar-item">Contents&emsp;&emsp;&emsp;&emsp; &ensp; &times;</button>
+			<a class="w3-bar-item w3-button w3-hover-blue w3-light-blue" href="https://jaszium.github.io/">Home</a>
+			<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="a.html">A.html</a>
+			<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="/jaszium">Jaszium Inc - GitHub</a>
+			<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="https://github.com/jaszium">Github - Jaszium</a>
 		</nav>
 		<!--<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="ʒoverlay"></div>-->
-		<div class="w3-blue">
-			<button onclick="w3_open()" class="w3-button w3-blue w3-xlarge">☰</button>
-			<div class="w3-container">
+		<div class="w3-row-padding w3-blue">
+			<div class="w3-quarter">
+				<button onclick="w3_open()" class="w3-button w3-blue w3-xxlarge">☰</button>
+				<a href="https://jaszium.github.io/">
+					<!--<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="64">-->
+					<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width=20%>
+				</a>
+			</div>
+			<div class="w3-half">
+				<h1 align="center" style="color:cyan">Main:\Home</h1>
+			</div>
+			<div class="w3-quarter">
+				<h1 align="right"><i>January 09th, 2020</i></h1>
+			</div>
+		</div>
+		<div class="w3-row-padding w3-light-blue">
+			<div class="w3-threequarter">
+				<h2 align="center">
+					This is my homepage for all my future projects to reside in.
+				</h2>
+				<p align="center">
+					Hello, <span id="namen"></span>! This site is currently in a Work In Progress (WIP) phase.<br/>
+					Oh, and by "Future Projects", I meant these categories:<br/>
+					<span style="color:blue">
+						APE Dna, Audacity, AutoHotkey, Dribbble, Fontforge, GitHub, GNU Image ManiPulation, Inkscape,<br/>
+						.\Jaszium, jGrasp, .\Linguistics, Minecraft, MCreator, MCForge, MCNBTExplorer, .\Miscellaneous,<br/>
+						MSPaint, MSWLogo, Notepad++, Open Broadcast Software, Paint.NET, Pinterest, Python, Quora,<br/>
+						Star Legends, Stencyl, Terraria, Twitch, .\Unsorted, Youtube
+					</span>&amp; more. (<i>links to be added soon</i>)<br/>
+					<br/>That means, I plan to add over 30 topics of content that will be elaborated in
+					<br/>their own index.html Homepages, with detailed chapters in that particular scope.
+				</p>
+			</div>
+			<div class="w3-quarter">
+				<p align="center">
+					#1: Yes, I know making a website with &lt;tables> for formatting is <i>not recommended</i>, but its just a concept
+					for the time being; not even a release / publish phase yet...<br/>Nevertheless, I will eventually fix it.<br/>
+					<br/>#2: Ignore the above, I have removed all the &lt;tr> &amp; &lt;td> formatting. It has been replaced with &lt;div>.
+				</p>
 			</div>
 		</div>
 		<div class="w3-row-padding w3-light-blue">
 			<div class="w3-quarter">
-				<a href="https://jaszium.github.io/">
-					<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="256">
-				</a>
-			</div>
-			<div class="w3-half">
-				<br/><br/><br/><h1 align="center" style="color:blue">Main:\Home</h1>
-			</div>
-			<div class="w3-quarter">
-				<br/><br/><br/><h1 align="right"><i>January 09th, 2020</i></h1>
-			</div>
-		</div>
-		<table align="center" border="0" cellpadding="8" cellspacing="4" !width="1500" !height="80">
-			<tbody>
-				<tr>
-					<td width="256">
-					</td>
-					<td width="793">
-						<h2>This is my homepage for all my future projects to reside in.</h2>
-						<p>
-							By projects, I mean: APE Dna, Audacity, AutoHotkey, Dribbble, Fontforge, GitHub,<br/>
-							GNU Image ManiPulation, G.Earth, Inkscape, Jaszium, jGrasp, Miscellaneous,<br/>
-							Open Broadcast Software, Pinterest, Python, Quora, Twitch, Unsorted, and Youtube.<br/>
-							<br/>That means, I plan to add nearly 20 topics of content that will be elaborated in
-							<br/>their own index.html Homepages, with detailed chapters in that particular scope.
-						</p>
-					</td>
-					<td>
-						<p>
-							Yes, I know making a website with &lt;tables&gt; for formatting is <i>not recommended</i>,
-							but its just a concept for the time being; not even a release / publish phase yet...<br/>
-							Nevertheless, I will eventually fix it.
-						</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<div class="w3-row-padding w3-pale-blue">
-			<div class="w3-quarter">
-				<h4 align="left">All rights reserved.<br>Courtesy of Jaszium Industries,<br>United Kingdom</h4>
+				&nbsp;
 			</div>
 			<div class="w3-half">
 				<h3 align="center">
@@ -74,10 +85,37 @@
 					<a href="https://sites.google.com/view/jaszium/home">Jaszium Inc - Google Sites</a>
 					for more information.
 				</h3>
-				<p align="center"><i>.eof</i> (<code>èǹd`òf`fìlè</code>)</p>
 			</div>
 			<div class="w3-quarter">
-				<h4 align="right">Copyright to Jaszium Inc,<br><i>a subsidiary of Jaszium Industries</i><br>circa Mar 2019</h4>
+				&nbsp;
+			</div>
+		</div>
+		<div class="w3-row" id="{Ø}set">
+			<!--<table align="center" border="0" cellpadding="8" cellspacing="4" !width="1500" !height="80">
+				<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>-->
+		</div>
+		<div class="w3-row-padding w3-pale-blue">
+			<div class="w3-quarter">
+				<h6 align="left"><b>All rights reserved.</b><br><i>Courtesy of Jaszium Industries,</i><br>United Kingdom</h6>
+			</div>
+			<div class="w3-half">
+				<h6 align="center">
+					<i>.eof</i><br/>(<code>èǹd`òf`fìlè</code>)<br/><i>Hosted on:
+					<a id="ghPages" href="https://pages.github.com/">Github Pages</a></i>
+				</h6>
+			</div>
+			<div class="w3-quarter">
+				<h6 align="right"><b>Copyright to Jaszium Inc.</b><br><i>A subsidiary of Jaszium Industries,</i><br>circa Mar 2019</h6>
 			</div>
 		</div>
 		<script src="script.js"></script>
