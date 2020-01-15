@@ -25,7 +25,7 @@
 		</style>
 		<title>Jaszium - Home</title>
 	</head>
-	<body>
+	<body onload="unix(500)">
 		<nav class="w3-sidebar w3-bar-block w3-border-right w3-animate-left" style="display:none" id="ʒsidebar">
 			<button onclick="w3_close()" class="w3-bar-item">Contents&emsp;&emsp;&emsp;&emsp; &ensp; &times;</button>
 			<a class="w3-bar-item w3-button w3-hover-blue w3-light-blue" href="https://jaszium.github.io/">Home</a>
@@ -50,7 +50,65 @@
 			</div>
 		</div>
 		<div class="w3-row-padding w3-light-blue">
-			<div class="w3-threequarter">
+			<div class="w3-quarter">
+				<div class="w3-row-padding w3-light-blue">
+					<div class="w3-third">
+						<br/>Info
+						<br/>Unix Time
+						<br/>Year
+						<br/>Month
+						<br/>Day
+						<br/>Hour
+						<br/>Minute
+						<br/>Second
+						<br/>Millisec
+						<br/>Timezone
+						<br/>Offset
+					</div>
+					<div class="w3-twothird">
+						<br/>Local
+						<br/><span id="lclUnx" onmouseover="pause()" onmouseout="unix(500)"></span>
+						<br/><span id="lclYər"></span>
+						<br/><span id="lclMth"></span>
+						<br/><span id="lclDay"></span>
+						<br/><span id="lclHør"></span>
+						<br/><span id="lclMin"></span>
+						<br/><span id="lclSec"></span>
+						<br/><span id="lclMil" onmouseover="pause()" onmouseout="unix(1)"></span>
+						<br/><span id="lclTzN"></span>
+						<br/><span id="lclTzI"></span>
+					</div>
+				</div>
+				<div class="w3-row-padding w3-light-blue">
+					<div class="w3-third">
+						<br/>Info
+						<br/>Unix Time
+						<br/>Year
+						<br/>Month
+						<br/>Day
+						<br/>Hour
+						<br/>Minute
+						<br/>Second
+						<br/>Millisec
+						<br/>Timezone
+						<br/>Offset
+					</div>
+					<div class="w3-twothird">
+						<br/>UTC
+						<br/><span id="utcUnx" onmouseover="pause()" onmouseout="unix(500)"></span>
+						<br/><span id="utcYər"></span>
+						<br/><span id="utcMth"></span>
+						<br/><span id="utcDay"></span>
+						<br/><span id="utcHør"></span>
+						<br/><span id="utcMin"></span>
+						<br/><span id="utcSec"></span>
+						<br/><span id="utcMil" onmouseover="pause()" onmouseout="unix(1)"></span>
+						<br/><span id="utcTzN"></span>
+						<br/><span id="utcTzI"></span>
+					</div>
+				</div>
+			</div>
+			<div class="w3-half">
 				<h2 align="center">
 					This is my homepage for all my future projects to reside in.
 				</h2>
