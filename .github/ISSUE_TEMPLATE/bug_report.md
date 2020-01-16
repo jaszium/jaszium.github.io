@@ -6,33 +6,28 @@ labels: bug
 assignees: jaszium
 
 ---
-
-**Describe the bug**
+# Cosmetic or Code errors?
+Choose which type of bug is it, an aesthetic or UI or design? Or a function, code, or method?
+## Description
 A clear and concise description of what the bug is.
-
-**To Reproduce**
+## Recreation
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
+1) ...
+2) ...
+3) ...
+4) ...
+5) ...
+& so on.
+## Expected behavior
 A clear and concise description of what you expected to happen.
-
-**Screenshots**
+## Screenshots
 If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. Windows 10.1]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. Samsung Galaxy Note 9]
- - OS: [e.g. 7.1]
- - Browser [e.g. default browser, safari, chrome]
- - Version [e.g. 22]
-
-**Additional context**
+## Computer or Smartphone?
+If using one, please complete the following information & delete the Smartphone info:
+ - Device: [e.g. Laptop, Desktop, other] or [e.g. Samsung Galaxy Note 9, iPhone X, Windows Phone 10]
+ - OS: [e.g. Windows 10.1, Linux, Unix, MacOS] or [e.g. Android, Apple, Windows]
+ - Browser [e.g. chrome, safari, firefox, iexplorer, avast, torch] or [e.g. default browser, safari, chrome]
+ - Version [e.g. 22] or [e.g. 79.0.39.45.116]
+## Additional context
 Add any other context about the problem here.
+Can be as elaborate as possible, in great detail even.
