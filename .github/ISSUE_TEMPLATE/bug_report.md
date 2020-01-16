@@ -23,7 +23,7 @@ A clear and concise description of what you expected to happen.
 ## Screenshots
 If applicable, add screenshots to help explain your problem.
 ## Computer or Smartphone?
-If using one, please complete the following information & delete the Smartphone info:
+If using one, please complete the following information & delete which is not applicable:
  - Device: [e.g. Laptop, Desktop, other] or [e.g. Samsung Galaxy Note 9, iPhone X, Windows Phone 10]
  - OS: [e.g. Windows 10.1, Linux, Unix, MacOS] or [e.g. Android, Apple, Windows]
  - Browser [e.g. chrome, safari, firefox, iexplorer, avast, torch] or [e.g. default browser, safari, chrome]
