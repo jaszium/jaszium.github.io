@@ -25,7 +25,7 @@
 		</style>
 		<title>Jaszium - Home</title>
 	</head>
-	<body onload="unix(500)">
+	<body onload="ʒçroǹsync(500)">
 		<nav class="w3-sidebar w3-bar-block w3-border-right w3-animate-left" style="display:none" id="ʒsidebar">
 			<button onclick="w3_close()" class="w3-bar-item">Contents&emsp;&emsp;&emsp;&emsp; &ensp; &times;</button>
 			<a class="w3-bar-item w3-button w3-hover-blue w3-light-blue" href="https://jaszium.github.io/">Home</a>
@@ -53,7 +53,10 @@
 		<div class="w3-row-padding w3-light-blue">
 			<div class="w3-quarter" align="center">
 				<h3><b>Contents</b></h3>
-				<h4>url-goes-here</h4>
+				<h4><a href="#">Top</a></h4>
+				<h4><a href="#">Main</a></h4>
+				<h4><a href="#">Notes</a></h4>
+				<h4><a href="#">End</a></h4>
 			</div>
 			<div class="w3-half">
 				<h2 align="center">
@@ -63,7 +66,7 @@
 					Hello, <span id="namen">guest</span>! This site is currently in a Work In Progress (WIP) phase.<br/>
 					Oh, and by "Future Projects", I meant these categories:<br/>
 					<span style="color:blue">
-						APE Dna, Audacity, AutoHotkey, Dribbble, Fontforge, GitHub, GNU Image ManiPulation, Inkscape,<br/>
+						APEDna, Audacity, AutoHotkey, Dribbble, Fontforge, GitHub, GNU Image ManiPulation, Inkscape,<br/>
 						.\Jaszium, jGrasp, .\Linguistics, Minecraft, MCreator, MCForge, MCNBTExplorer, .\Miscellaneous,<br/>
 						MSPaint, MSWLogo, Notepad++, Open Broadcast Software, Paint.NET, Pinterest, Python, Quora,<br/>
 						Star Legends, Stencyl, Terraria, Twitch, .\Unsorted, Youtube
@@ -85,8 +88,8 @@
 				<div class="w3-cell-row w3-light-blue">
 					<div class="w3-cell"><p><b>Region</b></p><p>Local</p><p>UTC</p></div>
 					<div class="w3-cell"><p><b>Unix Time</b></p>
-						<p id="lclUnx" onmouseover="pause()" onmouseout="unix(500)"></p>
-						<p id="utcUnx" onmouseover="pause()" onmouseout="unix(500)"></p>
+						<p id="lclUnx" onmouseover="ʒçroǹwait()" onmouseout="ʒçroǹsync(1000)"></p>
+						<p id="utcUnx" onmouseover="ʒçroǹwait()" onmouseout="ʒçroǹsync(500)"></p>
 					</div>
 				</div>
 			</div>
@@ -103,8 +106,8 @@
 					<div class="w3-cell"><p><b>Minute</b></p><p id="lclMin"></p><p id="utcMin"></p></div>
 					<div class="w3-cell"><p><b>Second</b></p><p id="lclSec"></p><p id="utcSec"></p></div>
 					<div class="w3-cell"><p><b>Millisec</b></p>
-						<p id="lclMil" onmouseover="pause()" onmouseout="unix(1)"></p>
-						<p id="utcMil" onmouseover="pause()" onmouseout="unix(1)"></p>
+						<p id="lclMil" onmouseover="ʒçroǹwait()" onmouseout="ʒçroǹsync(100)"></p>
+						<p id="utcMil" onmouseover="ʒçroǹwait()" onmouseout="ʒçroǹsync(1)"></p>
 					</div>
 				</div>
 			</div>
@@ -117,7 +120,7 @@
 		</div>
 		<div class="w3-row-padding w3-light-blue">
 			<div class="w3-quarter">&nbsp;</div>
-			<div class="w3-third">
+			<div class="w3-half">
 				<h3 align="center">
 					For further inquiries, please head on over to:<br/>
 					<a href="https://sites.google.com/view/jaszium/home">
