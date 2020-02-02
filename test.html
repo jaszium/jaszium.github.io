@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 	<head>
 		<!--<base href="https://jaszium.github.io/" target="_blank">-->
 		<link type="image/icon type" rel="icon" href="https://avatars1.githubusercontent.com/u/58339115?v=4"/>
@@ -7,8 +7,8 @@
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 		<meta charset="UTF-8"/>
 		<meta name="author" content="Jaszium Styrx Paralex"/>
-		<!--<meta name="description" content="">-->
-		<meta name="keywords" content="HTML,CSS,JS,Jaszium,Test"/>
+		<meta name="description" content="The Tests page for Jaszium's projects.">
+		<meta name="keywords" content="HTML, CSS, JavaScript, W3.css, Jaszium, Test"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<style>
 			a{
@@ -26,6 +26,7 @@
 		<title>Jaszium | Home - Tests</title>
 	</head>
 	<body onload="ʒnamen()">
+		<script src="script.js"></script>
 		<nav class="w3-sidebar w3-bar-block w3-border-right w3-animate-left" style="display:none" id="ʒsidebar">
 			<button onclick="w3_close()" class="w3-bar-item">Contents&emsp;&emsp;&emsp;&emsp; &ensp; &times;</button>
 			<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="https://jaszium.github.io/">Home</a>
@@ -35,12 +36,12 @@
 			<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="https://github.com/jaszium">Github - Jaszium</a>
 		</nav>
 		<!--<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="ʒoverlay"></div>-->
-		<div class="w3-row-padding w3-blue">
-			<div class="w3-quarter">
+		<div class="w3-row-padding w3-blue w3-animate-opacity">
+			<div class="w3-quarter id="ʒtop"">
 				<button onclick="w3_open()" class="w3-button w3-blue w3-xxlarge">☰</button>
 				<a href="https://jaszium.github.io/">
-					<!--<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="64">-->
-					<img src="https://jaszium.github.io/Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width=20%>
+					<!--<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width=20%>-->
+					<img src="https://jaszium.github.io/Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="64">
 				</a>
 			</div>
 			<div class="w3-half">
@@ -50,18 +51,20 @@
 				<h1 align="right"><i>January 09th, 2020</i></h1>
 			</div>
 		</div>
-		<div class="w3-row-padding w3-light-blue">
+		<div class="w3-row-padding w3-light-blue w3-animate-opacity">
 			<div class="w3-quarter" align="center">
 				<h3><b>Contents</b></h3>
-				<h4><a href="#">Top</a></h4>
-				<h4><a href="#">Main</a></h4>
-				<h4><a href="#">Notes</a></h4>
-				<h4><a href="#">End</a></h4>
-				<br/>
-				<h4><a href="index.html">⇦ Back</a></h4>
-				<h4><a href="test.html">Tests</a></h4>
+				<div class="w3-bar">
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒtop">§ Top</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒmän">§ Main</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒǹtȩ">§ Notes</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒend">§ End</a></h4>
+					<br/><br/>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-light-blue" href="index.html">⇦&emsp;Back</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="test.html">☆&emsp;Tests</a></h4>
+				</div>
 			</div>
-			<div class="w3-half">
+			<div class="w3-half" id="ʒmän">
 				<h2 align="center">
 					Hello άλφα Testers !!!
 				</h2>
@@ -70,7 +73,7 @@
 					<span style="color:blue">Loreem ipsome dollor site admit.</span><br/><br/>What's up with the above?<br/>
 				</p>
 			</div>
-			<div class="w3-quarter">
+			<div class="w3-quarter" id="ʒǹtȩ">
 				<p align="center">
 					#1: Yes, I know this page is supposed to be for tests but, I may experiment on the main "index.html" first - before
 					this page. In the likely event that this does occur, please wait a while or refresh this page.<br/>
@@ -78,9 +81,9 @@
 				</p>
 			</div>
 		</div>
-		<div class="w3-row-padding w3-light-blue">
+		<div class="w3-row-padding w3-light-blue w3-animate-opacity">
 			<div class="w3-third">&nbsp;</div>
-			<div class="w3-third">
+			<div class="w3-third" id="ʒend">
 				<h3 align="center">
 					For further inquiries, please head on over to:<br/>
 					<a href="https://sites.google.com/view/jaszium/home">
@@ -89,7 +92,7 @@
 			</div>
 			<div class="w3-third">&nbsp;</div>
 		</div>
-		<div class="w3-row-padding w3-pale-blue">
+		<div class="w3-row-padding w3-pale-blue w3-animate-opacity">
 			<div class="w3-half">
 				<h6 align="left"><b>All rights reserved.</b><br><i>Courtesy of Jaszium Industries,</i><br>United Kingdom</h6>
 			</div>
@@ -97,12 +100,11 @@
 				<h6 align="right"><b>Copyright to Jaszium Inc.</b><br><i>A subsidiary of Jaszium Industries,</i><br>circa Mar 2019</h6>
 			</div>
 		</div>
-		<div class="w3-row-padding w3-pale-blue">
+		<div class="w3-row-padding w3-pale-blue w3-animate-opacity">
 			<h6 align="center">
-				<i>.eof</i><br/>(<code>èǹd`òf`fìlè</code>)<br/><i>Hosted on:
-				<a id="ghPages" href="https://pages.github.com/">Github Pages</a></i>
+				<i class="w3-tooltip">.eof&emsp;<span class="w3-text w3-animate-opacity">(<code>èǹd`òf`fìlè</code>)</span></i>
+				<br/><i>Hosted on <a id="ghPages" href="https://pages.github.com/">Github Pages</a></i>
 			</h6>
 		</div>
-		<script src="script.js"></script>
 	</body>
 </html>
