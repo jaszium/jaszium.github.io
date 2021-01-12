@@ -1,0 +1,21 @@
+/* CSS Document */
+a {text-decoration:none;}
+a:hover {text-decoration:underline; background-color:lightcyan;}
+body {
+	color:black;
+	text-align:center;
+	font-size:110%;
+}
+code {
+	font-size:90%;
+}
+li {
+	text-align:center;
+}
+pre {
+	color:black;
+	font-size:130%;
+}
+#jz {
+	color:red;
+}
